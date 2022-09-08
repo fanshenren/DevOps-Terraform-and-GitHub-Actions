@@ -20,5 +20,5 @@ provider "snowflake" {
 
 resource "snowflake_database" "demo_db" {
   name    = "GitHub_Actions_DEMO_DB"
-  comment = "Database for Snowflake Terraform demo (updated SNOW user and password and environment variables with default role accountadmin"
+  comment = "Database for Snowflake Terraform demo (updated SNOW user and password and environment variables with default role accountadmin AND GRANT"
 }
